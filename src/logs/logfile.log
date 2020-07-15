@@ -1,39 +1,118 @@
 INFO:root:Database connection established root@localhost with password *****
-INFO:root:Database connection established root@localhost with password *****
-INFO:root:Database connection established root@localhost with password *****
-INFO:root:Database connection established root@localhost with password *****
+INFO:root:Existing database dropped
+INFO:root:New databasae created
 INFO:root:Path of the DDL folder is fetched
+INFO:root:branch_location table created
+INFO:root:department table created
+INFO:root:employee table created
+INFO:root:financial_year table created
+INFO:root:payment_details table created
+INFO:root:performance table created
+INFO:root:project table created
+INFO:root:rating table created
+INFO:root:role table created
+INFO:root:salary_slab table created
+INFO:root:skill_set table created
+INFO:root:team table created
+INFO:root:titles table created
+INFO:root:zemp_hike table created
+INFO:root:zemp_login table created
+INFO:root:zemp_project table created
+INFO:root:zemp_project_manager table created
+INFO:root:zemp_promotion table created
+INFO:root:zemp_salary table created
+INFO:root:zemp_supervisor table created
+INFO:root:Table creation completed!!
 INFO:root:Path of the DDL folder is fetched
-INFO:root:Database connection established root@localhost with password *****
-INFO:root:Database connection established root@localhost with password *****
-alhost with password *****
-2020-07-15 13:06:53,841 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:53,841 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:53,930 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:53,930 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:53,930 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:53,930 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:53,938 - root - INFO - file_path:59 - Path of the DDL folder is fetched
-2020-07-15 13:06:53,938 - root - INFO - file_path:59 - Path of the DDL folder is fetched
-2020-07-15 13:06:53,938 - root - INFO - file_path:59 - Path of the DDL folder is fetched
-2020-07-15 13:06:53,938 - root - INFO - file_path:59 - Path of the DDL folder is fetched
-2020-07-15 13:06:53,938 - root - INFO - file_path:59 - Path of the DDL folder is fetched
-2020-07-15 13:06:53,939 - root - INFO - file_path:59 - Path of the DDL folder is fetched
-2020-07-15 13:06:53,939 - root - INFO - file_path:59 - Path of the DDL folder is fetched
-2020-07-15 13:06:53,939 - root - INFO - file_path:59 - Path of the DDL folder is fetched
-2020-07-15 13:06:53,939 - root - INFO - file_path:59 - Path of the DDL folder is fetched
-2020-07-15 13:06:53,939 - root - INFO - file_path:59 - Path of the DDL folder is fetched
-2020-07-15 13:06:54,010 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:54,010 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:54,010 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:54,010 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:54,010 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:54,010 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:54,109 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:54,109 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:54,109 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:54,109 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:54,109 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:54,109 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:54,109 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
-2020-07-15 13:06:54,109 - root - INFO - connection_db:29 - Database connection established root@localhost with password *****
+INFO:root:Values inserted in table - branch_location
+INFO:root:Values inserted in table - department
+INFO:root:Values inserted in table - employee
+INFO:root:Values inserted in table - financial_year
+INFO:root:Values inserted in table - payment_details
+INFO:root:Values inserted in table - performance
+INFO:root:Values inserted in table - project
+INFO:root:Values inserted in table - rating
+INFO:root:Values inserted in table - role
+INFO:root:Values inserted in table - salary_slab
+INFO:root:Values inserted in table - skill_set
+INFO:root:Values inserted in table - team
+INFO:root:Values inserted in table - titles
+INFO:root:Values inserted in table - zemp_hike
+INFO:root:Values inserted in table - zemp_login
+INFO:root:Values inserted in table - zemp_project
+INFO:root:Values inserted in table - zemp_project_manager
+INFO:root:Values inserted in table - zemp_promotion
+INFO:root:Values inserted in table - zemp_salary
+INFO:root:Values inserted in table - zemp_supervisor
+INFO:root:Insertion completed!!
+15:35:29,523 - root - INFO - create_table:100 - rating table created
+2020-07-15 15:35:29,575 - root - INFO - create_table:100 - role table created
+2020-07-15 15:35:29,575 - root - INFO - create_table:100 - role table created
+2020-07-15 15:35:29,625 - root - INFO - create_table:100 - salary_slab table created
+2020-07-15 15:35:29,625 - root - INFO - create_table:100 - salary_slab table created
+2020-07-15 15:35:29,675 - root - INFO - create_table:100 - skill_set table created
+2020-07-15 15:35:29,675 - root - INFO - create_table:100 - skill_set table created
+2020-07-15 15:35:29,723 - root - INFO - create_table:100 - team table created
+2020-07-15 15:35:29,723 - root - INFO - create_table:100 - team table created
+2020-07-15 15:35:29,771 - root - INFO - create_table:100 - titles table created
+2020-07-15 15:35:29,771 - root - INFO - create_table:100 - titles table created
+2020-07-15 15:35:29,874 - root - INFO - create_table:100 - zemp_hike table created
+2020-07-15 15:35:29,874 - root - INFO - create_table:100 - zemp_hike table created
+2020-07-15 15:35:29,921 - root - INFO - create_table:100 - zemp_login table created
+2020-07-15 15:35:29,921 - root - INFO - create_table:100 - zemp_login table created
+2020-07-15 15:35:29,978 - root - INFO - create_table:100 - zemp_project table created
+2020-07-15 15:35:29,978 - root - INFO - create_table:100 - zemp_project table created
+2020-07-15 15:35:30,030 - root - INFO - create_table:100 - zemp_project_manager table created
+2020-07-15 15:35:30,030 - root - INFO - create_table:100 - zemp_project_manager table created
+2020-07-15 15:35:30,079 - root - INFO - create_table:100 - zemp_promotion table created
+2020-07-15 15:35:30,079 - root - INFO - create_table:100 - zemp_promotion table created
+2020-07-15 15:35:30,130 - root - INFO - create_table:100 - zemp_salary table created
+2020-07-15 15:35:30,130 - root - INFO - create_table:100 - zemp_salary table created
+2020-07-15 15:35:30,180 - root - INFO - create_table:100 - zemp_supervisor table created
+2020-07-15 15:35:30,180 - root - INFO - create_table:100 - zemp_supervisor table created
+2020-07-15 15:35:30,181 - root - INFO - create_table:101 - Table creation completed!!
+2020-07-15 15:35:30,181 - root - INFO - create_table:101 - Table creation completed!!
+2020-07-15 15:35:30,182 - root - INFO - file_path:59 - Path of the DDL folder is fetched
+2020-07-15 15:35:30,182 - root - INFO - file_path:59 - Path of the DDL folder is fetched
+2020-07-15 15:35:30,435 - root - INFO - insert_db:137 - Values inserted in table - branch_location
+2020-07-15 15:35:30,435 - root - INFO - insert_db:137 - Values inserted in table - branch_location
+2020-07-15 15:35:30,529 - root - INFO - insert_db:137 - Values inserted in table - department
+2020-07-15 15:35:30,529 - root - INFO - insert_db:137 - Values inserted in table - department
+2020-07-15 15:35:30,933 - root - INFO - insert_db:137 - Values inserted in table - employee
+2020-07-15 15:35:30,933 - root - INFO - insert_db:137 - Values inserted in table - employee
+2020-07-15 15:35:31,012 - root - INFO - insert_db:137 - Values inserted in table - financial_year
+2020-07-15 15:35:31,012 - root - INFO - insert_db:137 - Values inserted in table - financial_year
+2020-07-15 15:35:31,107 - root - INFO - insert_db:137 - Values inserted in table - payment_details
+2020-07-15 15:35:31,107 - root - INFO - insert_db:137 - Values inserted in table - payment_details
+2020-07-15 15:35:31,189 - root - INFO - insert_db:137 - Values inserted in table - performance
+2020-07-15 15:35:31,189 - root - INFO - insert_db:137 - Values inserted in table - performance
+2020-07-15 15:35:31,379 - root - INFO - insert_db:137 - Values inserted in table - project
+2020-07-15 15:35:31,379 - root - INFO - insert_db:137 - Values inserted in table - project
+2020-07-15 15:35:31,487 - root - INFO - insert_db:137 - Values inserted in table - rating
+2020-07-15 15:35:31,487 - root - INFO - insert_db:137 - Values inserted in table - rating
+2020-07-15 15:35:31,592 - root - INFO - insert_db:137 - Values inserted in table - role
+2020-07-15 15:35:31,592 - root - INFO - insert_db:137 - Values inserted in table - role
+2020-07-15 15:35:31,730 - root - INFO - insert_db:137 - Values inserted in table - salary_slab
+2020-07-15 15:35:31,730 - root - INFO - insert_db:137 - Values inserted in table - salary_slab
+2020-07-15 15:35:31,853 - root - INFO - insert_db:137 - Values inserted in table - skill_set
+2020-07-15 15:35:31,853 - root - INFO - insert_db:137 - Values inserted in table - skill_set
+2020-07-15 15:35:32,019 - root - INFO - insert_db:137 - Values inserted in table - team
+2020-07-15 15:35:32,019 - root - INFO - insert_db:137 - Values inserted in table - team
+2020-07-15 15:35:32,201 - root - INFO - insert_db:137 - Values inserted in table - titles
+2020-07-15 15:35:32,201 - root - INFO - insert_db:137 - Values inserted in table - titles
+2020-07-15 15:35:32,682 - root - INFO - insert_db:137 - Values inserted in table - zemp_hike
+2020-07-15 15:35:32,682 - root - INFO - insert_db:137 - Values inserted in table - zemp_hike
+2020-07-15 15:35:33,171 - root - INFO - insert_db:137 - Values inserted in table - zemp_login
+2020-07-15 15:35:33,171 - root - INFO - insert_db:137 - Values inserted in table - zemp_login
+2020-07-15 15:35:33,618 - root - INFO - insert_db:137 - Values inserted in table - zemp_project
+2020-07-15 15:35:33,618 - root - INFO - insert_db:137 - Values inserted in table - zemp_project
+2020-07-15 15:35:33,953 - root - INFO - insert_db:137 - Values inserted in table - zemp_project_manager
+2020-07-15 15:35:33,953 - root - INFO - insert_db:137 - Values inserted in table - zemp_project_manager
+2020-07-15 15:35:34,285 - root - INFO - insert_db:137 - Values inserted in table - zemp_promotion
+2020-07-15 15:35:34,285 - root - INFO - insert_db:137 - Values inserted in table - zemp_promotion
+2020-07-15 15:35:34,655 - root - INFO - insert_db:137 - Values inserted in table - zemp_salary
+2020-07-15 15:35:34,655 - root - INFO - insert_db:137 - Values inserted in table - zemp_salary
+2020-07-15 15:35:34,832 - root - INFO - insert_db:137 - Values inserted in table - zemp_supervisor
+2020-07-15 15:35:34,832 - root - INFO - insert_db:137 - Values inserted in table - zemp_supervisor
+2020-07-15 15:35:34,833 - root - INFO - insert_db:138 - Insertion completed!!
+2020-07-15 15:35:34,833 - root - INFO - insert_db:138 - Insertion completed!!
