@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
-    <title>Coverage for C:\Users\vinitha.muralidharan\PycharmProjects\EmployeeDetails\src\main\loghandler.py: 25%</title>
+    <title>Coverage for C:\Users\vinitha.muralidharan\PycharmProjects\EmployeeDetails\src\main\loghandler.py: 100%</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="jquery.hotkeys.js"></script>
@@ -17,13 +17,13 @@
 <div id="header">
     <div class="content">
         <h1>Coverage for <b>C:\Users\vinitha.muralidharan\PycharmProjects\EmployeeDetails\src\main\loghandler.py</b> :
-            <span class="pc_cov">25%</span>
+            <span class="pc_cov">100%</span>
         </h1>
         <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
         <h2 class="stats">
             12 statements &nbsp;
-            <button type="button" class="run shortkey_r button_toggle_run" title="Toggle lines run">3 run</button>
-            <button type="button" class="mis show_mis shortkey_m button_toggle_mis" title="Toggle lines missing">9 missing</button>
+            <button type="button" class="run shortkey_r button_toggle_run" title="Toggle lines run">12 run</button>
+            <button type="button" class="mis show_mis shortkey_m button_toggle_mis" title="Toggle lines missing">0 missing</button>
             <button type="button" class="exc show_exc shortkey_x button_toggle_exc" title="Toggle lines excluded">0 excluded</button>
         </h2>
     </div>
@@ -63,23 +63,23 @@
     <p id="t10" class="pln"><span class="n"><a href="#t10">10</a></span><span class="t"><span class="str">    logger returns the parameters to log data into a log file</span>&nbsp;</span><span class="r"></span></p>
     <p id="t11" class="pln"><span class="n"><a href="#t11">11</a></span><span class="t"><span class="str">    """</span>&nbsp;</span><span class="r"></span></p>
     <p id="t12" class="pln"><span class="n"><a href="#t12">12</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p id="t13" class="mis show_mis"><span class="n"><a href="#t13">13</a></span><span class="t">    <span class="nam">logger</span> <span class="op">=</span> <span class="nam">logging</span><span class="op">.</span><span class="nam">getLogger</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t14" class="mis show_mis"><span class="n"><a href="#t14">14</a></span><span class="t">    <span class="nam">file_path</span> <span class="op">=</span> <span class="nam">os</span><span class="op">.</span><span class="nam">path</span><span class="op">.</span><span class="nam">dirname</span><span class="op">(</span><span class="nam">os</span><span class="op">.</span><span class="nam">path</span><span class="op">.</span><span class="nam">dirname</span><span class="op">(</span><span class="nam">__file__</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> <span class="str">"\\logs\\logfile.log"</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t13" class="run"><span class="n"><a href="#t13">13</a></span><span class="t">    <span class="nam">logger</span> <span class="op">=</span> <span class="nam">logging</span><span class="op">.</span><span class="nam">getLogger</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t14" class="run"><span class="n"><a href="#t14">14</a></span><span class="t">    <span class="nam">file_path</span> <span class="op">=</span> <span class="nam">os</span><span class="op">.</span><span class="nam">path</span><span class="op">.</span><span class="nam">dirname</span><span class="op">(</span><span class="nam">os</span><span class="op">.</span><span class="nam">path</span><span class="op">.</span><span class="nam">dirname</span><span class="op">(</span><span class="nam">__file__</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> <span class="str">"\\logs\\logfile.log"</span>&nbsp;</span><span class="r"></span></p>
     <p id="t15" class="pln"><span class="n"><a href="#t15">15</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p id="t16" class="mis show_mis"><span class="n"><a href="#t16">16</a></span><span class="t">    <span class="nam">file_handler</span> <span class="op">=</span> <span class="nam">logging</span><span class="op">.</span><span class="nam">FileHandler</span><span class="op">(</span><span class="nam">file_path</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t17" class="mis show_mis"><span class="n"><a href="#t17">17</a></span><span class="t">    <span class="nam">formatter</span> <span class="op">=</span> <span class="nam">logging</span><span class="op">.</span><span class="nam">Formatter</span><span class="op">(</span><span class="str">"%(asctime)s - %(name)s -"</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t16" class="run"><span class="n"><a href="#t16">16</a></span><span class="t">    <span class="nam">file_handler</span> <span class="op">=</span> <span class="nam">logging</span><span class="op">.</span><span class="nam">FileHandler</span><span class="op">(</span><span class="nam">file_path</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t17" class="run"><span class="n"><a href="#t17">17</a></span><span class="t">    <span class="nam">formatter</span> <span class="op">=</span> <span class="nam">logging</span><span class="op">.</span><span class="nam">Formatter</span><span class="op">(</span><span class="str">"%(asctime)s - %(name)s -"</span>&nbsp;</span><span class="r"></span></p>
     <p id="t18" class="pln"><span class="n"><a href="#t18">18</a></span><span class="t">                                  <span class="str">" %(levelname)s - %(funcName)s:%(lineno)d - %(message)s"</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t19" class="mis show_mis"><span class="n"><a href="#t19">19</a></span><span class="t">    <span class="nam">logging</span><span class="op">.</span><span class="nam">basicConfig</span><span class="op">(</span><span class="nam">filename</span><span class="op">=</span><span class="nam">file_path</span><span class="op">,</span> <span class="nam">filemode</span><span class="op">=</span><span class="str">'w'</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t20" class="mis show_mis"><span class="n"><a href="#t20">20</a></span><span class="t">    <span class="nam">file_handler</span><span class="op">.</span><span class="nam">setFormatter</span><span class="op">(</span><span class="nam">formatter</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t21" class="mis show_mis"><span class="n"><a href="#t21">21</a></span><span class="t">    <span class="nam">logger</span><span class="op">.</span><span class="nam">addHandler</span><span class="op">(</span><span class="nam">file_handler</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t22" class="mis show_mis"><span class="n"><a href="#t22">22</a></span><span class="t">    <span class="nam">logger</span><span class="op">.</span><span class="nam">setLevel</span><span class="op">(</span><span class="nam">logging</span><span class="op">.</span><span class="nam">INFO</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t23" class="mis show_mis"><span class="n"><a href="#t23">23</a></span><span class="t">    <span class="key">return</span> <span class="nam">logger</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t19" class="run"><span class="n"><a href="#t19">19</a></span><span class="t">    <span class="nam">logging</span><span class="op">.</span><span class="nam">basicConfig</span><span class="op">(</span><span class="nam">filename</span><span class="op">=</span><span class="nam">file_path</span><span class="op">,</span> <span class="nam">filemode</span><span class="op">=</span><span class="str">'w'</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t20" class="run"><span class="n"><a href="#t20">20</a></span><span class="t">    <span class="nam">file_handler</span><span class="op">.</span><span class="nam">setFormatter</span><span class="op">(</span><span class="nam">formatter</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t21" class="run"><span class="n"><a href="#t21">21</a></span><span class="t">    <span class="nam">logger</span><span class="op">.</span><span class="nam">addHandler</span><span class="op">(</span><span class="nam">file_handler</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t22" class="run"><span class="n"><a href="#t22">22</a></span><span class="t">    <span class="nam">logger</span><span class="op">.</span><span class="nam">setLevel</span><span class="op">(</span><span class="nam">logging</span><span class="op">.</span><span class="nam">INFO</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t23" class="run"><span class="n"><a href="#t23">23</a></span><span class="t">    <span class="key">return</span> <span class="nam">logger</span>&nbsp;</span><span class="r"></span></p>
 </div>
 <div id="footer">
     <div class="content">
         <p>
             <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.2</a>,
-            created at 2020-07-09 15:54
+            created at 2020-07-14 20:05
         </p>
     </div>
 </div>

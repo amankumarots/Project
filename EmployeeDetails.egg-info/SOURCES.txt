@@ -1,0 +1,16 @@
+setup.py
+EmployeeDetails.egg-info/PKG-INFO
+EmployeeDetails.egg-info/SOURCES.txt
+EmployeeDetails.egg-info/dependency_links.txt
+EmployeeDetails.egg-info/top_level.txt
+src/__init__.py
+src/Results/__init__.py
+src/config/__init__.py
+src/files/__init__.py
+src/logs/__init__.py
+src/main/__init__.py
+src/main/devconfig.py
+src/main/loghandler.py
+src/main/mydbconnection.py
+src/test/__init__.py
+src/test/dbtesting.py
